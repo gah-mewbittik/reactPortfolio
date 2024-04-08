@@ -40,6 +40,7 @@ export default function Resume() {
                         </p>
                     </div>
                 </div>
+                <a className="download-link" download="andrewBiron_resume.pdf" href="/public/images/andrewBiron_resume.pdf">Download Resume</a>
       </div>
     );
   }

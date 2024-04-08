@@ -1,3 +1,5 @@
+import CardBody from "../UI/CardBody";
+
 export default function Portfolio() {
     return (
       <div>
@@ -5,6 +7,7 @@ export default function Portfolio() {
         <p>
             All about the work!
         </p>
+        <CardBody />
       </div>
     );
   }
