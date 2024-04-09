@@ -40,10 +40,42 @@
 .read-the-docs {
   color: #888;
 }
-
+/* Started Here */
 .nav-tabs-container{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-end;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.nav-tabs .nav-item .nav-link{
+  width: 100%;
+  color: darkblue;
+}
+
+.nav-tabs .nav-item .nav-link.active{
+  color: orangered;
+  /*border-color: orangered;*/
+}
+
+
+.nav-item{
+  margin-right: 30px;
+}
+
+
+#profile-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom:30px;
+  border: 5px solid var(--borderCol);
+  border-radius: 50% 20px 50% 20px;
+  padding: 5px;
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
 }

@@ -1,12 +1,12 @@
-
-      //
+/* eslint-disable react/prop-types */
+      
       function NavTabs({ currentPage, handlePageChange }) {
         return (<>
           <img src='/images/personalLogo_v5.png' />
           <div className="nav-tabs-container">
             <ul className="nav nav-tabs">
               <li className="nav-item">
-                <a
+                <a 
                   href="#about"
                   onClick={() => handlePageChange('About')}
             

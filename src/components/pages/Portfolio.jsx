@@ -7,7 +7,43 @@ export default function Portfolio() {
         <p>
             All about the work!
         </p>
-        <CardBody />
+
+        <CardBody 
+          title={"Music eShop"} 
+          image={'/public/images/iconLogo.png'} 
+          repo={"View Repository"} 
+          deployedApp={"View App"}/>
+
+        <CardBody 
+          title={"Global Glimpse Voyage"} 
+          image={'/public/images/iconLogo.png'} 
+          repo={"View Repository"} 
+          deployedApp={"View App"}/>
+
+        <CardBody 
+          title={"Full-Stack Blog"} 
+          image={'/public/images/iconLogo.png'} 
+          repo={"View Repository"} 
+          deployedApp={"View App"}/>
+       
+       <CardBody 
+          title={"JATE"} 
+          image={'/public/images/iconLogo.png'} 
+          repo={"View Repository"} 
+          deployedApp={"View App"}/>
+
+        <CardBody 
+          title={"Note Taker"} 
+          image={'/public/images/iconLogo.png'} 
+          repo={"View Repository"} 
+          deployedApp={"View App"}/>
+
+        <CardBody 
+          title={"Workday Scheduler"} 
+          image={'/public/images/iconLogo.png'} 
+          repo={"View Repository"} 
+          deployedApp={"View App"}/>
+
       </div>
     );
   }

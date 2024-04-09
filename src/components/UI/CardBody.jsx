@@ -1,15 +1,20 @@
 
+/* eslint-disable react/prop-types */
 
-export default function CardBody() {
+export default function CardBody({title, image, repo, deployedApp}) {
+  console.log(title, image, repo, deployedApp)
     return (
+      <>
       <div className="card-body">
-        <h1>Project 1</h1>
-        <img src="/public/images/iconLogo.png" />
+        <h1>{title}</h1>
+        <img src={image} />
         <p></p>
-        <a>View deployed App</a><br></br>
-        <a>View the GitHub REPO</a>
+        <a>{repo}</a><br></br>
+        <a>{deployedApp}</a>
 
-        
       </div>
+
+
+      </>
     );
   }
