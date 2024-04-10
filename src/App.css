@@ -50,13 +50,16 @@
   margin-top: 30px;
   width: 100%;
 }
+.personal-logo{
+  display: flex;
+}
 
-.nav-tabs .nav-item .nav-link{
+.nav-underline .nav-item .nav-link{
   width: 100%;
   color: darkblue;
 }
 
-.nav-tabs .nav-item .nav-link.active{
+.nav-underline .nav-item .nav-link.active{
   color: orangered;
   /*border-color: orangered;*/
 }
@@ -92,3 +95,67 @@
   box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
 }
+
+/*** Resume Sections starts ***/
+.resume-container {
+  margin: 0 auto; 
+  box-sizing: border-box;
+  padding: 0.5in; /* controls margins */
+  width: 8.5in;
+  height: 11in;
+  background-color: white;
+  box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
+  }
+  
+  .multicolumn {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 1rem;
+  }
+  
+  .resume-contact{
+    text-align: start;
+    width:100%
+    
+  }
+  
+  .info-card{
+    text-align: end;
+    margin-right: 65px;
+    
+  }
+  .resume-titles{
+    text-align:start;
+    font-size: 20px;
+  }
+  
+  .download-link{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color:blue;
+    font-size: 18px;
+  }
+  .download-link:hover{
+    color: orangered;
+  }
+  
+  /*print set up*/
+  @media print {
+    body {
+      margin: 0;
+    }
+  
+    .resume-container {
+      width: 100%;
+      box-shadow: none;
+    }
+    html {
+      height: 11in;
+      width: 8.5in;
+      overflow: hidden;
+    }
+  }
+  
+  
+  /*** Resume Section ends ***/

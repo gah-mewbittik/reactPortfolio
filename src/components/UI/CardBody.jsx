@@ -1,19 +1,19 @@
 
 /* eslint-disable react/prop-types */
 
-export default function CardBody({title, image, repo, deployedApp}) {
+export default function CardBody({title, image, description, repo, deployedApp}) {
   console.log(title, image, repo, deployedApp)
     return (
       <div className="card" style={{width: '20rem'}}>
           <img src={image} className="card-img-top" alt="" />
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card&apos;s content.</p>
+            <p className="card-text">{description}</p>
           </div>
          
           <div className="card-body">
-            <a href="#" className="card-link">{repo}</a>
-            <a href="#" className="card-link">{deployedApp}</a>
+            <a href={repo} target="_blank" rel="noreferrer" className="card-link">View Repository</a>
+            <a href={deployedApp} target="_blank" rel="noreferrer" className="card-link">View App</a>
           </div>
       </div>
     );

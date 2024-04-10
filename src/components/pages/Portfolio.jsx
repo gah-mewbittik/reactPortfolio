@@ -11,38 +11,44 @@ export default function Portfolio() {
           <CardBody 
             title={"Music eShop"} 
             image={'/public/images/musicEshop.png'} 
-            repo={"View Repository"} 
-            deployedApp={"View App"}/>
+            description={'Full-stack Application (ORM)'}
+            repo={"https://github.com/gah-mewbittik/music-e-shop"} 
+            deployedApp={"https://pacific-depths-04321-2c86aabef571.herokuapp.com/"}/>
 
           <CardBody 
             title={"Global Glimpse Voyage"} 
             image={'/public/images/unsplashImageChange.png'} 
-            repo={"View Repository"} 
-            deployedApp={"View App"}/>
+            description={'Front-end Application (+3 APIs)'}
+            repo={"https://github.com/gah-mewbittik/SAM-Project-1"} 
+            deployedApp={"https://gah-mewbittik.github.io/SAM-Project-1/"}/>
 
           <CardBody 
             title={"Full-Stack Blog"} 
             image={'/public/images/fullStack_1.png'} 
-            repo={"View Repository"} 
-            deployedApp={"View App"}/>
+            description={'Full-stack Application (ORM)'}
+            repo={"https://github.com/gah-mewbittik/full-stack-blog"} 
+            deployedApp={"https://pacific-meadow-34307-80829f509aa3.herokuapp.com/"}/>
         
           <CardBody 
             title={"JATE"} 
             image={'/public/images/Jate.png'} 
-            repo={"View Repository"} 
-            deployedApp={"View App"}/>
+            description={'Progressive Web App (PWA)'}
+            repo={"https://github.com/gah-mewbittik/jate"} 
+            deployedApp={"https://jate-o6j6.onrender.com"}/>
 
           <CardBody 
             title={"Note Taker"} 
             image={'/public/images/note_taker_splash.png'} 
-            repo={"View Repository"} 
-            deployedApp={"View App"}/>
+            description={'Front-end Application'}
+            repo={"https://github.com/gah-mewbittik/note-taker"} 
+            deployedApp={"https://young-retreat-20337-4ffcc9d0add4.herokuapp.com/"}/>
 
           <CardBody 
             title={"Workday Scheduler"} 
             image={'/public/images/Work-Day-Scheduler.png'} 
-            repo={"View Repository"} 
-            deployedApp={"View App"}/>
+            description={'Front-end Application'}
+            repo={"https://github.com/gah-mewbittik/Wok-Day-Scheduler"} 
+            deployedApp={"https://gah-mewbittik.github.io/Wok-Day-Scheduler/"}/>
 
          </div>
 
