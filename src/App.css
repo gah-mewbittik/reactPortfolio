@@ -40,7 +40,7 @@
 .read-the-docs {
   color: #888;
 }
-/* Started Here */
+/* NAV starts */
 .nav-tabs-container{
   display: flex;
   flex-direction: row;
@@ -66,6 +66,19 @@
   margin-right: 30px;
 }
 
+/* NAV Ends */
+
+/* Card Starts */
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card{
+  margin-bottom: 20px;
+}
+/* Card Ends */
 
 #profile-pic{
   display: block;
