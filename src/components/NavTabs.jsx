@@ -2,9 +2,9 @@
       
       function NavTabs({ currentPage, handlePageChange }) {
         return (<>
-          <img className="personal-logo" src='/images/personalLogo_v5.png' />
+          <img className="personal-logo img-fluid" src='/images/personalLogo_v5.png' />
           <div className="nav-tabs-container">
-            <ul className="nav nav-underline">
+            <ul className="nav nav-underline justify-content-center">
               <li className="nav-item">
                 <a 
                   href="#about"

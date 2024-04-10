@@ -34,7 +34,7 @@ export default function Resume() {
                         <p className="resume-titles">SKILLS</p>
                         <p className="info-card">Adobe Creative Suite Applications, Unity 3D, Microsoft Office<br/>
                             Object-Relational Mapping (ORM), Model-View-Controller (MVC), mySql2, Nodejs, Express, Sequelize, <br/>
-                            Object-Document Mappinng (ODM), MongoDB, Mongoose, NoSQL, MERN
+                            Object-Document Mapping (ODM), MongoDB, Mongoose, NoSQL, MERN
                             React, Bootstrap, Handlebars<br/>
                           
                         </p>
