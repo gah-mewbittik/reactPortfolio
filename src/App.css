@@ -169,11 +169,16 @@
   }
   .linkIcons{
    max-width: 50px;
-   margin-right: 20px;;
+   margin-right: 20px;
   }
   .linkIconsLINK{
     max-width: 50px;
    }
    .linkIconsX{
     max-width: 100px;
+   }
+
+   .linkIconsPort{
+    max-width: 100px;
+    margin-right: 20px;
    }
