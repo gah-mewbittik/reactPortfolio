@@ -17,10 +17,10 @@ export default function Resume() {
                         <p className="info-card">To acquire a full-time Web Development position where I can use my web development, user experience, and design skills.</p>
                         <p className="resume-titles">EDUCATION</p>
                         <p className="info-card"> 
-                            <strong>Full Stack Web Development</strong> <br/> Carleton University (Current)<br/>
-                            <strong>Information Technology-Interactive Multimedia & Design</strong> <br/> Carleton University (2014-2019)<br/>
+                            <strong>Full Stack Web Development</strong> <br/> Certificate, Carleton University (May 2024)<br/>
+                            <strong>Information Technology-Interactive Multimedia & Design</strong> <br/> Bachelors Degree, Carleton University (2014-2019)<br/>
                             <strong>Business Administration-Marketing</strong> <br/> Nipissing University (2008-2009)<br/>
-                            <strong>Business Administration-Marketing</strong> <br/> Canadore College (2003-2006)<br/>
+                            <strong>Business Administration-Marketing</strong> <br/> Advance Diploma, Canadore College (2003-2006)<br/>
                           
 
                         </p>
