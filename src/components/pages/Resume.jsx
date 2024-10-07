@@ -41,7 +41,7 @@ export default function Resume() {
                         </p>
                     </div>
                 </div>
-                <a className="download-link" download="andrewBiron_resume.pdf" href="/public/images/andrewBiron_resume.pdf">Download Resume</a>
+                <a className="download-link" download="andrewBiron_Resume.pdf" href="/public/images/andrewBiron_Resume.pdf">Download Resume</a>
       </div>
     );
   }
