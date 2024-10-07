@@ -25,11 +25,12 @@ export default function Resume() {
 
                         </p>
                         <p className="resume-titles">WORK</p>
-                        <p className="info-card"><strong>Financial Analyst</strong> <br/> Tawich Development Corporation (May-September 2019)<br/>
+                        <p className="info-card">
+                        <strong>Communications Officer</strong> <br/> Apatisiiwin Skills Development (August 2024-Current)<br/> 
+                            <strong>Financial Analyst</strong> <br/> Tawich Development Corporation (May-September 2019)<br/>
                             <strong>Project Manager</strong> <br/> Tawich Development Corporation (March-August 2014)<br/>
                             <strong>Proprietor</strong> <br/> Neh T-Bone (2012-2014)<br/>
                             <strong>Project Manager</strong> <br/> Tawich Construction Inc. (2010-2012)<br/>
-                            <strong>Interim Economic Development Officer</strong> <br/> Cree Nation of Wemindji (2006-2007)<br/> 
                         </p>
                         <p className="resume-titles">SKILLS</p>
                         <p className="info-card">Adobe Creative Suite Applications, Unity 3D, Microsoft Office<br/>
